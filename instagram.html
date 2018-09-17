@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> The Third Project: Better Instagram</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Oleo+Script" rel="stylesheet">
+  </head>
+    
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-between">
+      <a class="navbar-brand" href="#"><i class="fa fa-instagram"></i>
+        <span class="brand">Instagram</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#postModal">
+              Create New Post
+            </button>
+          </li>
+            <!-- Modal -->
+          <div class="modal fade" id="postModal" tabindex="-1" role="dialog" aria-labelledby="postModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-body">
+                  <div class="form-group">
+                     <p><textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea></p>
+                     <ul class="nav">
+                      <li class="nav-item">
+                        <button type="button" class="btn btn-outline-secondary socialGraphic" class="smGraphic" data-toggle="modal">
+                          <span class="fa fa-camera"></span> 
+                        </button>
+                      </li>
+                      <li class="nav-item">
+                        <button type="button" class="btn btn-outline-secondary socialGraphic" data-toggle="modal">
+                          <span class="fa fa-map-marker"></span>
+                        </button>
+                      </li>
+                     </ul>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Cancel</button>
+                  <button type="button" class="btn btn-success">Publish</button>
+                </div>
+              </div>
+            </div>
+          </div>
+              
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <span class="fa fa-cog"></span>
+              </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#" target="_blank">Action</a>
+              <a class="dropdown-item" href="#"  target="_blank">Another Action</a>
+              <a class="dropdown-item" href="#"  target="_blank">Some Other Action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Log Out</a>
+
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+      
+    <div class="container-fluid h-100">
+      <div class="row h-100 justify-content-center align-items-center" id="whiteNav">
+        <div class="col-4" style="text-align: right" >
+          <ul class="nav nav-pills justify-content-center" id="pills-tab" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active" id="pills-grid-tab" data-toggle="pill" href="#pills-grid" role="tab" aria-controls="pills-grid" aria-selected="true"><span class="fa fa-th"></span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="pills-list-tab" data-toggle="pill" href="#pills-list" role="tab" aria-controls="pills-list" aria-selected="false"><span class="fa fa-square"></span></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+        
+         
+      <div class="tab-content" id="nav-tabContent">
+        <div class="tab-pane fade show active" id="pills-grid" role="tabpanel" aria-labelledby="pills-grid-tab">
+          
+                <div class="container-fluid row no-gutters">
+              	<div class="row no-gutters">
+              		<div class="col-md-4">
+              			<img src="images/image1.jpg" />
+              		</div>
+              		<div class="col-md-4">
+              			<img src="images/image2.jpg" />
+              		</div>
+              		<div class="col-md-4">
+              			<img src="images/image3.jpg" />
+              		</div>
+              	</div>
+              	<div class="row no-gutters">
+              		<div class="col-md-4">
+              			<img src="images/image4.jpg" />
+              		</div>
+              		<div class="col-md-4">
+              			<img src="images/image5.jpg" />
+              		</div>
+              		<div class="col-md-4">
+              			<img src="images/image6.jpg" />
+              		</div>
+              	</div>
+              		<div class="row no-gutters">
+              		<div class="col-md-4">
+              			<img src="images/image7.jpg" />
+              		</div>
+              		<div class="col-md-4">
+              			<img src="images/image8.jpg" />
+              		</div>
+              		<div class="col-md-4">
+              			<img src="images/image9.jpg" />
+              		</div>
+              	</div>
+          </div>
+        </div>
+        
+        
+        <div class="tab-pane fade" id="pills-list" role="tabpanel" aria-labelledby="pills-list-tab">
+          <div class="row justify-content-center">
+            <div class="col-md-6 post1">
+              
+              <!--first post starts here-->
+
+              <div class="card justify-content-center" id="postCards1">
+                <div class="card-header justify-content-between">
+                  <h3>My first photo</h3>
+                  <p>9/12/18</p>
+                </div>
+                <img class="cardImage img-fluid " src="/images/image1.jpg"></img>
+                <div class="card-block">
+                  <h5 class="card-title">23 Likes</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                </div>
+                <div class="cardFooter text-muted justify-content-between">
+                  <p><span class="fa fa-heart"></span> Comment...</p>
+                </div>
+              </div>
+              
+                  <!--second post starts here-->
+                    
+              <div class="card justify-content-center" id="postCards2">
+                <div class="card-header justify-content-between">
+                  <h3>Another fun post</h3>
+                  <p>9/12/18</p>
+                </div>
+                <img class="cardImage img-fluid " src="images/image2.jpg"></img>
+                <div class="card-block">
+                  <h5 class="card-title">10 Likes</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                </div>
+                <div class="cardFooter text-muted justify-content-between">
+                  <p><span class="fa fa-heart"></span> Comment...</p>
+                </div>
+              </div>
+              
+                  <!--third post starts here-->
+                    
+              <div class="card justify-content-center" id="postCards3">
+                <div class="card-header justify-content-between">
+                  <h3>I like posting</h3>
+                  <p>9/12/18</p>
+                </div>
+                <img class="cardImage img-fluid " src="/images/image3.jpg"></img>
+                <div class="card-block">
+                  <h5 class="card-title">2 Likes</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                </div>
+                <div class="cardFooter text-muted justify-content-between">
+                  <p><span class="fa fa-heart"></span> Comment...</p>
+                </div>
+              </div>
+              
+                  <!--fourth post starts here-->
+                    
+              <div class="card justify-content-center" id="postCards4">
+                <div class="card-header justify-content-between">
+                  <h3>Had a good day</h3>
+                  <p>9/12/18</p>
+                </div>
+                <img class="cardImage img-fluid " src="/images/image4.jpg"></img>
+                <div class="card-block">
+                  <h5 class="card-title">50 Likes</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                </div>
+                <div class="cardFooter text-muted justify-content-between">
+                  <p><span class="fa fa-heart"></span> Comment...</p>
+                </div>
+              </div>
+              
+                  <!--fifth post starts here-->
+                    
+              <div class="card justify-content-center" id="postCards5">
+                <div class="card-header justify-content-between">
+                  <h3>My last post today</h3>
+                  <p>5/31/18</p>
+                </div>
+                <img class="cardImage img-fluid " src="/images/image5.jpg"></img>
+                <div class="card-block">
+                  <h5 class="card-title">12 Likes</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                </div>
+                <div class="cardFooter text-muted justify-content-between">
+                  <p><span class="fa fa-heart"></span> Comment...</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+  </body>
+</html>

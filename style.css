@@ -1,0 +1,103 @@
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: #a6a6a6;
+}
+
+.nav-link {
+    color: #495057;
+}
+.nav-link.active {
+    color: #fff;
+}
+a:hover { color: #495057; }
+
+.imagesPost {
+    background-size: cover;
+    min-height: 300px;
+    border: 1px solid #f7f7f7;
+    border-radius: 3px;
+}
+
+
+
+.cardImage {
+    max-width: 100%;
+    height: auto;
+}
+
+.card-header {
+    display: flex;
+    background-color: #fff;
+    font-size: 22px;
+    padding: 0;
+    margin: 0 10px;
+    align-items: center;
+}
+
+.row {
+    background-color: #e8e8e5;
+}
+
+
+.cardFooter {
+    display: flex;
+    margin: 30px 10px 10px 10px;
+    text-align: center;
+    
+}
+
+.card-block {
+    margin: 30px 10px 10px 10px;
+}
+
+#whiteNav {
+    background-color:  white;
+}
+
+#postCards1 {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+#postCards2 {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+#postCards3 {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+#postCards4 {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+#postCards5 {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.brand {
+    font-family: 'Oleo Script', cursive;
+    font-size: 25px;
+    
+}
+
+.dropdown:last-child .dropdown-menu {
+  right: 0;
+  left: auto;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.socialGraphic {
+    width: 40px;
+    height: 40px;
+    margin-right: 2px;
+    
+}
+
+
+
